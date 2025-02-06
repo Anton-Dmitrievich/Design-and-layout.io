@@ -446,9 +446,8 @@ a {
   margin: 0 auto;
 }
 
-.project-grid {
+.project-flex {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
 }
 
@@ -481,10 +480,8 @@ a {
   opacity: 0.8;
 }
 
-@media screen and (width < 1024px) {
-  .project-grid {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
+@media screen and (max-width: 1024px) {
+  .project-flex {
     grid-template-columns: repeat(2, 1fr);
   }
 }
