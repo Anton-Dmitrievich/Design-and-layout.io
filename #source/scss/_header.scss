@@ -1,0 +1,122 @@
+.header {
+      background: var(--Color-Gray);
+      padding: 60px 0 143px 0;
+      
+}
+
+.header-menu {
+            margin-bottom: 123px;
+            padding: 4px 11px 0 22px;
+		&__flex {
+                  display: flex;
+                  justify-content: space-between;   
+                  align-items: center;  
+		}
+}
+.header-labl {
+
+		&__img {
+                  margin-right: 10px;
+		}
+}
+.nav-wrapper {
+      padding: 7px 23px 0 0;
+      margin: -1px 0 0 0;
+		&__item {
+                  margin-right: 30px;
+		}
+            &__item:last-child {
+                  margin-right: 0px;
+		}
+}
+
+.hide-on-med-and-down {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+}
+
+@media screen and (max-width:1280px) {
+      .header-container{
+            padding: 0 20px;
+      }
+      .header-labl {
+		&__img {
+                  margin-right: 20px;
+		}
+}
+
+      .hide-on-med-and-down {
+            display: flex;
+            justify-content: space-between;
+            justify-content:end;
+            flex-wrap: wrap;
+            }
+
+
+  }
+  @media screen and (max-width:768px) {
+      .nav-wrapper {
+
+            &__item {
+                  margin-right: 0px;
+            }
+      }
+      .hide-on-med-and-down {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: end;
+            }
+  }
+
+  .header-titleBlock {
+      padding: 46px 22px 0px 103px;
+      margin-bottom: 2px;
+}
+.header-title {
+
+		&__flex {
+                  display: flex;
+                  justify-content: space-between;
+		}
+}
+.header-blockImg {
+ 
+      img{
+            width: 100%;
+      }
+}
+.header-blockTexst {
+      margin: -58px 0 0px 0;
+}
+
+.header-h1 {
+      margin-bottom:44px ;
+}
+
+.header-p {
+      max-width: 538px;
+      margin-bottom: 73px;   
+}
+.header-buttom{
+      width: 225px;
+      height: 65px;
+}
+
+@media screen and (max-width:1280px) {
+      .header-blockImg {
+            display: none;
+            img{
+                  width: 100%;
+            }
+      }
+
+
+  }
+@media screen and (max-width:768px) {
+      .header-h1{
+       font-size: 28px;     
+      }
+  }

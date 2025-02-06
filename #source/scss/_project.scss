@@ -1,0 +1,46 @@
+.project {
+    padding: 31px 0 72px 0;
+}
+.project-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.project-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper-card{
+    background-color: black;
+}
+
+.project-card {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    &__img{
+        width: 100%;
+    }
+    &__fon {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background: rgba(52, 84, 122, 0.5);
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__fon:hover {
+        opacity: 0.8;
+    }
+}
+@media screen and (width<1920px) {
+    .project-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

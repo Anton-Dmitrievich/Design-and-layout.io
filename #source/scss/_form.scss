@@ -1,0 +1,73 @@
+.form {
+    padding: 66px 0 0 0;
+    background: var(--Color-Gray);
+}
+
+.form-container {
+width: 540px;
+text-align: center;
+}
+.text-h2 {
+}
+.form-h2 {
+    margin-bottom: 42px;
+}
+.text-p {
+}
+.form-p {
+  margin-bottom: 78px;
+width: 540px;
+}
+.form-grid {
+margin-bottom: 50px;
+display: grid;
+grid-template-areas: 'name mail' 'txt txt';
+justify-content: space-between;
+
+}
+.form-name {
+background: var(--Color-White);
+grid-area: name;
+padding: 0 20px 20px 20px;
+width: 255px;
+height: 45px;
+
+		&__input {
+            
+           
+		}
+}
+.form-mail {
+background: var(--Color-White);
+grid-area: mail;
+padding: 0 20px 20px 20px;
+width: 255px;
+height: 45px;
+		&__input {
+            
+		}
+}
+.form-text {
+    margin-top: 23px;
+background: var(--Color-White);
+grid-area: txt;
+padding: 17px 20px 20px 20px;
+		&__text {
+            resize: none;
+           max-width: 540px;
+            height: 135px;
+		}
+}
+.button {
+}
+.form-buttom {
+    width: 190px;
+    height: 55px;
+    margin-bottom: 100px;
+}
+.button-p {
+}
+
+textarea.materialize-textarea{
+    border-bottom: none;
+}

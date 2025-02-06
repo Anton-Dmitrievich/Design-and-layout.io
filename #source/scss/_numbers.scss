@@ -1,0 +1,36 @@
+.nambers {
+    padding: 101px 0px 100px 39px;
+background: var(--Color-blue);
+    &__item {
+        margin-right: 48px;
+    }
+    &__item:last-child {
+        margin-right: 0px;
+    }
+}
+.container {
+}
+.nambers-flex { 
+    display: flex;
+
+}
+@media screen and (max-width:1280px) {
+    .nambers-flex { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nambers {
+        padding: 102px 0 96px 0;
+background: var(--Color-blue);
+    &__item {
+        margin-right: 0px;
+    }
+    &__item:last-child {
+        margin-right: 0px;
+    }
+}
+}
+@media screen and (max-width:768px) {
+
+}

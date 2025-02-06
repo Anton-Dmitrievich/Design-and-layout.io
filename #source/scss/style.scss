@@ -1,0 +1,106 @@
+@import "_nullstyle";
+@import "_fonts";
+
+
+:root {
+    --Color-Gray: rgb(238, 239, 241);
+    --Color-White: rgb(249, 249, 249);
+    --Color-Accent:rgb(238, 239, 241);
+    --Color-blue:rgb(52, 84, 122);
+    --Color-line:rgb(52, 84, 122);
+    --Color-lineLess: rgb(196, 196, 196);
+  }
+
+body{
+    font-family:Roboto;
+}
+.wrapper{
+    
+}
+.container{
+    margin:0 auto;
+    max-width: 1150px;
+    
+}
+
+.text-h1{
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0%;
+    
+}
+.text-h2{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+   
+}
+.text-footer-h3{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+}
+.text-p{
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    
+}
+.p-text-button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 10%;
+    text-align: center;
+}
+.p-numb{
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.button-p{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 1.7px;
+    }
+a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+}
+
+.button{
+    background: rgb(52, 84, 122);
+   padding: 0px  0 0 0px;
+}
+@import "_header";
+@import "_about";
+@import "_numbers";
+@import "_skils";
+@import "_work";
+@import "_project";
+@import "_clients";
+@import "_form";
+@import "_footer";
+
+
+@media screen and (max-width:1280px) {
+    .container{
+        padding: 0 5px 0 5px
+    }
+}
